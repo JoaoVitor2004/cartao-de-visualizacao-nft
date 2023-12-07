@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(7, 7, 34);
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 100%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo-principal {
+    background-image: linear-gradient(to left, rgba(21, 21, 59, 0.989), rgb(32, 32, 105));
+    background-size: 400% 100%;
+    animation: slide 4s linear infinite alternate;
+    color: white;
+    width: 280px;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+.conteudo-principal .imagem {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.conteudo-principal .view {
+    width: 100%;
+}
+
+.conteudo-principal .imagem::before {
+    content: '';
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.5;
+    display: none;
+}
+
+.conteudo-principal .imagem::after {
+    content: '';
+    background-image: url(images/icon-view.svg);
+    background-size: cover;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 40%;
+    left: 38%;
+    display: none;
+}
+
+.conteudo-principal .imagem:hover::before,
+.conteudo-principal .imagem:hover::after
+{
+    display: block;
+    cursor: pointer;
+}
+
+.secao-principal {
+    text-align: left;
+    padding: 2rem 2rem 0 0;
+}
+
+.secao-principal h1 {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.secao-principal h1:hover {
+    color: aqua;
+}
+
+.secao-principal p {
+    opacity: 0.5;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+
+
+.tempo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+}
+
+.divisao1 {
+    display: flex;
+    gap: 5px;
+}
+
+.divisao1 h2 {
+    font-size: 1.4rem;
+    color: aqua;
+}
+
+.divisao2 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+
+.divisao2 h2 {
+    font-size: 1.4rem;
+    opacity: 0.5;
+}
+
+
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.autor img {
+    width: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.autor span {
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.autor span:hover {
+    color: aqua;
+}
+
+.autor h3 {
+    opacity: 0.5;
+    margin-left: .5rem;
+}
