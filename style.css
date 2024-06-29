@@ -17,16 +17,6 @@ body {
     background-color: rgb(7, 7, 34);
 }
 
-@keyframes slide {
-    0% {
-        background-position-x: 100%;
-    }
-
-    100% {
-        background-position: 400%;
-    }
-}
-
 main {
     display: flex;
     justify-content: center;
@@ -35,9 +25,7 @@ main {
 }
 
 .conteudo-principal {
-    background-image: linear-gradient(to left, rgba(25, 25, 54, 0.989), rgb(32, 32, 105));
-    background-size: 400% 100%;
-    animation: slide 4s linear infinite alternate;
+    background-color: #15273F;
     color: white;
     width: 280px;
     padding: 2.5rem;
