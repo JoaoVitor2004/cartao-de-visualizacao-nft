@@ -50,6 +50,7 @@ main {
     position: absolute;
     opacity: 0.5;
     display: none;
+    transition: 0.2s ease-in-out;
 }
 
 .conteudo-principal .imagem::after {
@@ -62,6 +63,7 @@ main {
     top: 40%;
     left: 38%;
     display: none;
+    transition: 0.2s ease-in-out;
 }
 
 .conteudo-principal .imagem:hover::before,
@@ -69,7 +71,6 @@ main {
 {
     display: block;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
 }
 
 .secao-principal {
