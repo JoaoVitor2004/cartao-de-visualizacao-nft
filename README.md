@@ -1,16 +1,24 @@
-# Projeto cartão de visualização NFT
+![capa- cartão nft](https://github.com/JoaoVitor2004/cartao-de-visualizacao-nft/assets/143558833/f251850a-bfa6-4ade-bfce-492b08ad0eff)
 
-Projeto desenvolvido apartir de um dos desafios do <a href="https://www.frontendmentor.io/home">frontend mentor</a>
+## 🎯 Introdução
 
-![desktop-design](https://github.com/JoaoVitor2004/cartao-de-visualizacao-nft/assets/143558833/f4d58909-6e73-4694-9e3e-2bf46564b1d3)
+Este projeto tem o objetivo de mostrar este cartão de visualização para o usuario, quando é passado o mouse em cima da imagem ele altera a cor de fundo e adiciona uma nova imagem estando totalmente responsivo.
 
-## ⛏ Ferramenta e tecnologias utilizadas
+### ⚙ Guia de instalação
 
-- Visual studio code
+Precisa ter somente um navegador instalado em sua maquina para acessar apartir deste [endereço](https://JoaoVitor2004.github.io/cartao-de-visualizacao-nft)
 
-  - HTML
-  - CSS
+### 🛠 Tecnologias utilizadas
 
- <br>
+<div>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo do HTML">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo do HTML">
+</div>
 
-🔗 Link para acessar o <a href="https://joaovitor2004.github.io/cartao-de-visualizacao-nft/">site</a>
+### 👨‍💻 Autores / Colaboradores
+
+- **João Vitor** - Frontend d projeto - [João Vitor](https://linkedin.com/in/joão-vitor-souzaa)
+
+### 📃 Licença
+
+Este projeto está sob a licença [MIT]()
